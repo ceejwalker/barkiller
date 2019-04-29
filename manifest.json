@@ -1,0 +1,26 @@
+
+{
+    "name": "barkiller",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Easier Textbook Reading",
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": true
+    },
+    "icons": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "128": "icon.png"
+    },
+    "browser_action": {
+      "default_title": "kill"
+    },
+    "permissions": [
+      "https://*/*",
+      "http://*/*",
+      "tabs"
+    ]
+  }
